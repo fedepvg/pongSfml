@@ -1,3 +1,4 @@
 bin
 obj
 .vs
+!/pongSFML/lib/SFML-2.5.1/bin

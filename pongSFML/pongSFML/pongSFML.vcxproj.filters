@@ -7,10 +7,36 @@
     <Filter Include="src\Juego">
       <UniqueIdentifier>{db4b091c-5a35-4046-b313-2ae950d09463}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Jugador">
+      <UniqueIdentifier>{ac97df94-ca7a-4c8e-ac8b-817863d94663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Bola">
+      <UniqueIdentifier>{6549e6ea-d96e-4bc8-841e-dcb2e5078295}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\juego\juego.cpp">
+      <Filter>src\Juego</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jugador\jugador.cpp">
+      <Filter>src\Jugador</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\bola\bola.cpp">
+      <Filter>src\Bola</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\juego\juego.h">
+      <Filter>src\Juego</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\jugador\jugador.h">
+      <Filter>src\Jugador</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\bola\bola.h">
+      <Filter>src\Bola</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
